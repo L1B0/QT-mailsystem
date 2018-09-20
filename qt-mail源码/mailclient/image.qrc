@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>background.jpg</file>
+        <file>logo.jpg</file>
+        <file>123</file>
+        <file>回收站.jpg</file>
+        <file>回收站2.jpg</file>
+        <file>收藏夹.jpg</file>
+        <file>草稿箱.jpg</file>
+        <file>深蓝渐变.jpg</file>
+        <file>logo透明.png</file>
+        <file>背景透明.png</file>
+        <file>世界地图.jpg</file>
+        <file>黑白地图.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1028</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>60</y>
+      <width>251</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(131, 131, 131);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>161</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="writemail">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	font: 14pt &quot;Bitstream Charter&quot;;
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+ color:rgb(255, 0, 127);
+}
+QPushButton:pressed
+{
+    
+	color: rgb(173, 4, 92);
+	border:0px;
+	
+	background-color: rgba(255, 255, 255, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>WRITE</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="receive">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	font: 14pt &quot;Bitstream Charter&quot;;
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+ color:rgb(255, 0, 127);
+}
+QPushButton:pressed
+{
+    
+	color: rgb(173, 4, 92);
+	border:0px;
+	
+	background-color: rgba(255, 255, 255, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>INBOX</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sendmail">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	font: 14pt &quot;Bitstream Charter&quot;;
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+ color:rgb(255, 0, 127);
+}
+QPushButton:pressed
+{
+    
+	color: rgb(173, 4, 92);
+	border:0px;
+	
+	background-color: rgba(255, 255, 255, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>OUTBOX</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="draft">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	font: 14pt &quot;Bitstream Charter&quot;;
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+ color:rgb(255, 0, 127);
+}
+QPushButton:pressed
+{
+    
+	color: rgb(173, 4, 92);
+	border:0px;
+	
+	background-color: rgba(255, 255, 255, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>DRAFT</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="recyclebin">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	font: 14pt &quot;Bitstream Charter&quot;;
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+ color:rgb(255, 0, 127);
+}
+QPushButton:pressed
+{
+    
+	color: rgb(173, 4, 92);
+	border:0px;
+	
+	background-color: rgba(255, 255, 255, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>RECYCLEBIN</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="image.qrc">:/new/prefix1/logo透明.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1031</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(96, 97, 108);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>30</y>
+      <width>288</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>44</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">
+	font: 14pt &quot;Bitstream Charter&quot;;
+color:rgb(255, 255, 255)
+</string>
+       </property>
+       <property name="text">
+        <string>welcome </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="logout">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	font: 14pt &quot;Bitstream Charter&quot;;
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+ color:rgb(255, 0, 127);
+}
+QPushButton:pressed
+{
+    
+	color: rgb(173, 4, 92);
+	border:0px;
+	
+	background-color: rgba(255, 255, 255, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>log out</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>label_7</zorder>
+   <zorder>label_5</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>label_4</zorder>
+   <zorder>layoutWidget_2</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
