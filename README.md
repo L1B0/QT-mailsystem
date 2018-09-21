@@ -12,24 +12,31 @@ source emailDatabase.sql;
 
 ## 0x01 编译
 
+### 编译mailclient
 ```
-//编译mailclient
 cd mailclient
 qmake -project
 qmake
 make
-vim mailclient.pro //若报fatal error: QWidget: 没有那个文件或目录
+``` 
+若报fatal error: QWidget: 没有那个文件或目录
+```
+vim mailclient.pro 
 QT+=sql core gui widgets //添加这行
 make
-
-//编译mailserver
+```
+### 编译mailserver
+```
 cd mailserver
 qmake -project
 qmake
 make
-vim mailserver.pro //atal error: QSqlDatabase: 没有那个文件或目录
+```
+若报fatal error: QSqlDatabase: 没有那个文件或目录
+```
+vim mailserver.pro
 QT+=sql //添加这行
-make
+make //退出vim再次make
 ```
 
 ## 0x02 运行
@@ -42,10 +49,9 @@ make
 
 ### mailclient
 
+修改mailclient的port
 ```
-//修改mailclient的port
-vim logindialog.ui
-//将第29行的4444改成你想用的port
+vim logindialog.ui// 将第29行的4444改成你想用的port
 
 make //重新make
 ./mailclient
