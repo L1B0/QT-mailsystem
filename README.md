@@ -2,7 +2,7 @@
 
 ## 0x00 创建数据库
 
-在文件`emailDatabase.sql`所在目录下打开命令行
+在文件`emailDatabase.sql`所在目录下打开命令行，进入mysql
 
 ```mysql
 create database email_schema;
